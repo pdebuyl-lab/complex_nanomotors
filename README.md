@@ -44,7 +44,9 @@ with flags `-std=c99 -O3`.
 
 For Fortran:
 ```
-user@hpc-p-login-2:~$ 
+user@hpc-p-login-2:~$ ifort --version
+ifort (IFORT) 16.0.3 20160415
+Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
 ```
 with flags `-openmp -stand f08 -O3`.
 
