@@ -1,8 +1,7 @@
 # Companion data and code
 
-This repository contains extra information and code for the article *Shaping
-and functionalizing models for chemically powered nanomotors* by Pierre de
-Buyl.
+This repository contains extra information and code for the article *Mesoscopic
+simulations of anisotropic chemically-powered nanomotors* by Pierre de Buyl.
 
 The preprint should be available on the author's arXiv profile:
 <https://arxiv.org/a/debuyl_p_1.html>
@@ -37,16 +36,16 @@ vendor_id       : GenuineIntel
 The compilers used are, for C:
 ```
 user@hpc-p-login-2:~$ icc --version
-icc (ICC) 16.0.3 20160415
-Copyright (C) 1985-2016 Intel Corporation.  All rights reserved
+icc (ICC) 18.0.1 20171018
+Copyright (C) 1985-2017 Intel Corporation.  All rights reserved.
 ```
 with flags `-std=c99 -O3`.
 
 For Fortran:
 ```
 user@hpc-p-login-2:~$ ifort --version
-ifort (IFORT) 16.0.3 20160415
-Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+ifort (IFORT) 18.0.1 20171018
+Copyright (C) 1985-2017 Intel Corporation.  All rights reserved.
 ```
 with flags `-openmp -stand f08 -O3`.
 
@@ -59,9 +58,9 @@ Platform: linux
 Python: 3.5.2 (default, Nov 17 2016, 17:05:23) 
 [GCC 5.4.0 20160609]
 Machine and architecture x86_64 64bit ELF
-NumPy: 1.13.3
+NumPy: 1.15.1
 SciPy: 1.0.0
-Matplotlib: 2.1.0
+matplotlib: 2.1.0
 h5py: 2.6.0
 ```
 
@@ -76,6 +75,5 @@ using the parameter and datafiles provided in the directory `parameter_files`.
 
 The notebooks enable the reproduction of all the figures from the article.
 
-For information, the simulations for the Janus particles required about 200
-core days and for the L particle about 800 core days.
+For information, the whole simulation set required about 700 core days.
 
